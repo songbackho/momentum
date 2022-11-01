@@ -38,17 +38,18 @@
             justify-content: center;
         }
 
-        .greeting {
-            font-size: 50px;
-
-            margin-bottom: 30px;
-            
-            width: 80vw;
-
+        .greetingout{
             display: flex;
             flex-direction: column;
             align-items: center;
             justify-content: center;
+
+        }
+
+        .greeting {
+            font-size: 50px;
+            margin-bottom: 30px;           
+            width: 80vw;            
         }
 
         .todo {
@@ -130,7 +131,10 @@
 
     <div class="main">
         <div id="currentWeather" class="currentWeather"></div>
-        <div class="greeting">Hello, Sparta!</div>
+        <div class="greetingout">
+            <div class="greeting">Hello, SpartaCodingClub!</div>
+        </div>
+        
         <div class="todo">
             <div id="currentTime" class="currentTime">12:25</div>
             <div class="totoTitle">TODAY'S CODING</div>
